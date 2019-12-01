@@ -10,21 +10,21 @@ namespace WebAtividadeEntrevista.Models
         public long Id { get; set; }
         
         /// <summary>
-        /// CEP
+        ///  CEP
         /// </summary>
         [Required]
         [MaxLength(9)]
         public string CEP { get; set; }
 
         /// <summary>
-        /// Cidade
+        ///  Cidade
         /// </summary>
         [Required]
         [MaxLength(50)]
         public string Cidade { get; set; }
 
         /// <summary>
-        /// E-mail
+        ///  E-mail
         /// </summary>
         [Required]
         [MaxLength(100)]
@@ -32,49 +32,49 @@ namespace WebAtividadeEntrevista.Models
         public string Email { get; set; }
 
         /// <summary>
-        /// Estado
+        ///  Estado
         /// </summary>
         [Required]
         [MaxLength(2)]
         public string Estado { get; set; }
 
         /// <summary>
-        /// Logradouro
+        ///  Logradouro
         /// </summary>
         [Required]
         [MaxLength(500)]
         public string Logradouro { get; set; }
 
         /// <summary>
-        /// Nacionalidade
+        ///  Nacionalidade
         /// </summary>
         [Required]
         [MaxLength(50)]
         public string Nacionalidade { get; set; }
 
         /// <summary>
-        /// Nome
+        ///  Nome
         /// </summary>
         [Required]
         [MaxLength(50)]
         public string Nome { get; set; }
 
         /// <summary>
-        /// Sobrenome
+        ///  Sobrenome
         /// </summary>
         [Required]
         [MaxLength(50)]
         public string Sobrenome { get; set; }
 
         /// <summary>
-        /// Telefone
+        ///  Telefone
         /// </summary>
         [Required]
         [MaxLength(15)]
         public string Telefone { get; set; }
 
         /// <summary>
-        /// CPF
+        ///  CPF
         /// </summary>
         [Required]
         [MaxLength(14)]
